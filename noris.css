@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700,900");
+body {
+  background-image: url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 #get-joke {
   padding: 30px;
-  border-radius: 5%;
-  background-color: #82ca9c;
+  border-radius: 10px; 
+  border: 1px solid #0092c2;
+  box-shadow: 2px 2px 7px 4px rgba(0, 146, 194, 0.7);
+  background-color: #0c1f2e;
   color: #fff;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
@@ -12,10 +20,19 @@
   margin-right: auto; }
 
 #joke {
-  font-size: 18px;
-  color: #3d5950;
+  font-size: 30px;
+  color: #fff;
   font-family: "Raleway", sans-serif;
   max-width: 70%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center; }
+  text-align: center; 
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  }
+.joke {
+  background-color: rgba(12, 31, 46, 0.7);
+  max-width: 80%;
+  margin: auto;
+}
